@@ -1,0 +1,570 @@
+{
+  "home": {
+    "hero": {
+      "title": "Design Without Boundaries",
+      "subtitle": "A Design Journey Beyond the Norm",
+      "buttonText": "View Works",
+      "media": {
+        "type": "video",
+        "url": "https://cdn.shopify.com/videos/c/o/v/423aebbed1ea43e09801a09c3c53d98b.mp4",
+        "alt": "Hero Media"
+      }
+    }
+  },
+  "gallery": {
+    "scrollHint": "SWIPE TO EXPLORE",
+    "items": [
+      {
+        "id": "window1",
+        "number": "01",
+        "caption": "Brand Design",
+        "backgroundColor": "#E91E63",
+        "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      },
+      {
+        "id": "window2",
+        "number": "02",
+        "caption": "Graphic Design",
+        "backgroundColor": "#FFEB3B",
+        "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/167_f0c698f9-8727-4790-9662-c9fc5e74255c.png?v=1768266624"
+      },
+      {
+        "id": "window3",
+        "number": "03",
+        "caption": "AI Design",
+        "backgroundColor": "#795548",
+        "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/dc75125a74b3f6f509719465ef712ca1_4ba8c061-92e6-4e2b-b6ad-700f3e94b20d.png?v=1768266797"
+      },
+      {
+        "id": "window4",
+        "number": "04",
+        "caption": "Web Design",
+        "backgroundColor": "#607D8B",
+        "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/jimeng-2026-01-07-8512-3D_..._83c7e627-d59e-4262-92a2-64c878881809.png?v=1768266826"
+      },
+      {
+        "id": "window5",
+        "number": "05",
+        "caption": "3D Design",
+        "backgroundColor": "#3F51B5",
+        "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/ChatGPT_Image_2026_1_7_15_43_57_3bfc6de1-aaba-441f-9135-a2485a23d2c7.png?v=1768266851"
+      },
+      {
+        "id": "window6",
+        "number": "06",
+        "caption": "Personal Practice",
+        "backgroundColor": "#009688",
+        "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/165.png?v=1768266948"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "personal": {
+      "name": "Zoran",
+      "jobTitle": "Graphic and Visual Designer",
+      "photoPlaceholder": "个人��片",
+      "photo": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/0c863d8f25fa3543348b1b79a11de66b_ab55e341-f7e0-47c0-a9e0-f00a9589cada.jpg?v=1768267464"
+    },
+    "learningPath": {
+      "title": {
+        "en": "LEARNING",
+        "zh": "学习路径"
+      },
+      "items": [
+        {
+          "institution": "武汉华夏理工学院",
+          "englishName": "WUHAN HUA XIA INSTITUTE OF TECHNOLOGY",
+          "degree": "本科",
+          "degreeType": "UNDERGRADUATE COURSE",
+          "major": "视觉传达",
+          "majorType": "VISUAL COMMUNICATION"
+        }
+      ]
+    },
+    "workAnchor": {
+      "title": {
+        "en": "WORK ANCHOR",
+        "zh": "工作锚点"
+      },
+      "items": [
+        {
+          "company": "杭州斐波创意有限��司",
+          "period": "2023.02-06",
+          "position": "设计师 · 品牌策划设计",
+          "description": "负责甲方线上线下需求，�括但不限于vi，kv kt板，海报，ppt等"
+        },
+        {
+          "company": "杭州卡沃王有限��司",
+          "period": "2023.06-09",
+          "position": "设计师 · 产品设计",
+          "description": "负责甲方和自己��司线上线下需求，�括但不限于球星卡，收藏卡的牌面设计，��设计以及线下落地等"
+        }
+      ]
+    },
+    "skillCurve": {
+      "title": {
+        "en": "SKILL CURVE",
+        "zh": "技能曲线"
+      },
+      "categories": [
+        {
+          "name": "平面",
+          "skills": [
+            {
+              "name": "ADOBE PHOTOSHOP",
+              "icon": "fas fa-photo-film",
+              "percentage": 60
+            },
+            {
+              "name": "ADOBE ILLUSTRATOR",
+              "icon": "fas fa-pen-nib",
+              "percentage": 80
+            }
+          ]
+        },
+        {
+          "name": "三维",
+          "skills": [
+            {
+              "name": "BLENDER",
+              "icon": "fas fa-cube",
+              "percentage": 40
+            },
+            {
+              "name": "CINEMA 4D",
+              "icon": "fas fa-layer-group",
+              "percentage": 60
+            }
+          ]
+        },
+        {
+          "name": "办��三件套",
+          "skills": [
+            {
+              "name": "WORD",
+              "icon": "fas fa-file-word",
+              "percentage": 70
+            },
+            {
+              "name": "EXCEL",
+              "icon": "fas fa-file-excel",
+              "percentage": 50
+            },
+            {
+              "name": "POWER POINT",
+              "icon": "fas fa-file-powerpoint",
+              "percentage": 70
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "info": [
+      {
+        "type": "Email",
+        "icon": "fas fa-envelope",
+        "value": "zhanzhanzhou29@gmail.com"
+      },
+      {
+        "type": "Phone",
+        "icon": "fas fa-phone",
+        "value": "+86 13036129305"
+      },
+      {
+        "type": "Location",
+        "icon": "fas fa-map-marker-alt",
+        "value": "Current Address：Dongguan City, Guangdong Province, China"
+      }
+    ]
+  },
+  "windowContents": {
+    "window1.html": {
+      "title": "Playground club Plan",
+      "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+      "backgroundColor": "#E91E63",
+      "category": "window1",
+      "name": "Red Series - Artwork 1",
+      "date": "2023-06-15",
+      "description": "This is a vibrant red series artwork that explores the depths of color and emotion. The piece combines bold brushstrokes with subtle textures to create a dynamic visual experience. It represents the artist's exploration of passion and energy through color theory.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window2.html": {
+      "title": "Window 2 - Content 2",
+      "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+      "backgroundColor": "#FFEB3B",
+      "category": "window2",
+      "name": "Yellow Series - Artwork 2",
+      "date": "2023-07-20",
+      "description": "This vibrant yellow series artwork radiates warmth and energy, capturing the essence of sunshine and optimism. The piece combines bold geometric shapes with fluid organic forms to create a harmonious visual experience.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window3.html": {
+      "title": "Window 3 - Content 3",
+      "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+      "backgroundColor": "#795548",
+      "category": "window3",
+      "name": "Brown Series - Artwork 3",
+      "date": "2023-08-15",
+      "description": "This earthy brown series artwork exudes warmth and stability, capturing the essence of nature and g. The piece combines textured surfaces with organic shapes to create a tactile visual experience.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window4.html": {
+      "title": "Window 4 - Content 4",
+      "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+      "backgroundColor": "#607D8B",
+      "category": "window4",
+      "name": "Blue Series - Artwork 4",
+      "date": "2023-09-10",
+      "description": "This serene blue series artwork evokes a sense of calm and tranquility, capturing the essence of water and sky. The piece combines gradient transitions with fluid forms to create a peaceful visual experience.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window5.html": {
+      "title": "Window 5 - Content 5",
+      "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+      "backgroundColor": "#3F51B5",
+      "category": "window5",
+      "name": "Indigo Series - Artwork 5",
+      "date": "2023-10-05",
+      "description": "This deep indigo series artwork conveys mystery and depth, capturing the essence of the night sky and ocean depths. The piece combines rich textures with abstract forms to create a contemplative visual experience.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window6.html": {
+      "title": "Window 6 - Content 6",
+      "image": "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+      "backgroundColor": "#009688",
+      "category": "window6",
+      "name": "Teal Series - Artwork 6",
+      "date": "2023-11-15",
+      "description": "This refreshing teal series artwork inspires balance and harmony, capturing the essence of nature and tranquility. The piece combines organic patterns with smooth transitions to create a rejuvenating visual experience.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window1-content2.html": {
+      "title": "Playground clu2156",
+      "image": "",
+      "backgroundColor": "#E91E63",
+      "category": "window1",
+      "name": "Red Series - Artwork 1 - Item 2",
+      "date": "2023-07-10",
+      "description": "This is a vibrant red series artwork that explores the depths of color and emotion. The piece combines bold brushstrokes with subtle textures to create a dynamic visual experience. It represents the artist's exploration of passion and energy through color theory. This is additional content item 2 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window1-content3.html": {
+      "title": "Playground club Plan - Item 3",
+      "image": "",
+      "backgroundColor": "#E91E63",
+      "category": "window1",
+      "name": "Red Series - Artwork 1 - Item 3",
+      "date": "2023-07-15",
+      "description": "This is a vibrant red series artwork that explores the depths of color and emotion. The piece combines bold brushstrokes with subtle textures to create a dynamic visual experience. It represents the artist's exploration of passion and energy through color theory. This is additional content item 3 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window1-content4.html": {
+      "title": "Playground club Plan - Item 4",
+      "image": "",
+      "backgroundColor": "#E91E63",
+      "category": "window1",
+      "name": "Red Series - Artwork 1 - Item 4",
+      "date": "2023-07-20",
+      "description": "This is a vibrant red series artwork that explores the depths of color and emotion. The piece combines bold brushstrokes with subtle textures to create a dynamic visual experience. It represents the artist's exploration of passion and energy through color theory. This is additional content item 4 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window2-content2.html": {
+      "title": "Window 2 - Content 2 - Item 2",
+      "image": "",
+      "backgroundColor": "#FFEB3B",
+      "category": "window2",
+      "name": "Yellow Series - Artwork 2 - Item 2",
+      "date": "2023-08-10",
+      "description": "This vibrant yellow series artwork radiates warmth and energy, capturing the essence of sunshine and optimism. The piece combines bold geometric shapes with fluid organic forms to create a harmonious visual experience. This is additional content item 2 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window2-content3.html": {
+      "title": "Window 2 - Content 2 - Item 3",
+      "image": "",
+      "backgroundColor": "#FFEB3B",
+      "category": "window2",
+      "name": "Yellow Series - Artwork 2 - Item 3",
+      "date": "2023-08-15",
+      "description": "This vibrant yellow series artwork radiates warmth and energy, capturing the essence of sunshine and optimism. The piece combines bold geometric shapes with fluid organic forms to create a harmonious visual experience. This is additional content item 3 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window2-content4.html": {
+      "title": "Window 2 - Content 2 - Item 4",
+      "image": "",
+      "backgroundColor": "#FFEB3B",
+      "category": "window2",
+      "name": "Yellow Series - Artwork 2 - Item 4",
+      "date": "2023-08-20",
+      "description": "This vibrant yellow series artwork radiates warmth and energy, capturing the essence of sunshine and optimism. The piece combines bold geometric shapes with fluid organic forms to create a harmonious visual experience. This is additional content item 4 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window3-content2.html": {
+      "title": "Window 3 - Content 3 - Item 2",
+      "image": "",
+      "backgroundColor": "#795548",
+      "category": "window3",
+      "name": "Brown Series - Artwork 3 - Item 2",
+      "date": "2023-09-10",
+      "description": "This earthy brown series artwork exudes warmth and stability, capturing the essence of nature and g. The piece combines textured surfaces with organic shapes to create a tactile visual experience. This is additional content item 2 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window3-content3.html": {
+      "title": "Window 3 - Content 3 - Item 3",
+      "image": "",
+      "backgroundColor": "#795548",
+      "category": "window3",
+      "name": "Brown Series - Artwork 3 - Item 3",
+      "date": "2023-09-15",
+      "description": "This earthy brown series artwork exudes warmth and stability, capturing the essence of nature and g. The piece combines textured surfaces with organic shapes to create a tactile visual experience. This is additional content item 3 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window3-content4.html": {
+      "title": "Window 3 - Content 3 - Item 4",
+      "image": "",
+      "backgroundColor": "#795548",
+      "category": "window3",
+      "name": "Brown Series - Artwork 3 - Item 4",
+      "date": "2023-09-20",
+      "description": "This earthy brown series artwork exudes warmth and stability, capturing the essence of nature and g. The piece combines textured surfaces with organic shapes to create a tactile visual experience. This is additional content item 4 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window4-content2.html": {
+      "title": "Window 4 - Content 4 - Item 2",
+      "image": "",
+      "backgroundColor": "#607D8B",
+      "category": "window4",
+      "name": "Blue Series - Artwork 4 - Item 2",
+      "date": "2023-10-10",
+      "description": "This serene blue series artwork evokes a sense of calm and tranquility, capturing the essence of water and sky. The piece combines gradient transitions with fluid forms to create a peaceful visual experience. This is additional content item 2 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window4-content3.html": {
+      "title": "Window 4 - Content 4 - Item 3",
+      "image": "",
+      "backgroundColor": "#607D8B",
+      "category": "window4",
+      "name": "Blue Series - Artwork 4 - Item 3",
+      "date": "2023-10-15",
+      "description": "This serene blue series artwork evokes a sense of calm and tranquility, capturing the essence of water and sky. The piece combines gradient transitions with fluid forms to create a peaceful visual experience. This is additional content item 3 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window4-content4.html": {
+      "title": "Window 4 - Content 4 - Item 4",
+      "image": "",
+      "backgroundColor": "#607D8B",
+      "category": "window4",
+      "name": "Blue Series - Artwork 4 - Item 4",
+      "date": "2023-10-20",
+      "description": "This serene blue series artwork evokes a sense of calm and tranquility, capturing the essence of water and sky. The piece combines gradient transitions with fluid forms to create a peaceful visual experience. This is additional content item 4 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window5-content2.html": {
+      "title": "Window 5 - Content 5 - Item 2",
+      "image": "",
+      "backgroundColor": "#3F51B5",
+      "category": "window5",
+      "name": "Indigo Series - Artwork 5 - Item 2",
+      "date": "2023-11-10",
+      "description": "This deep indigo series artwork conveys mystery and depth, capturing the essence of the night sky and ocean depths. The piece combines rich textures with abstract forms to create a contemplative visual experience. This is additional content item 2 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window5-content3.html": {
+      "title": "Window 5 - Content 5 - Item 3",
+      "image": "",
+      "backgroundColor": "#3F51B5",
+      "category": "window5",
+      "name": "Indigo Series - Artwork 5 - Item 3",
+      "date": "2023-11-15",
+      "description": "This deep indigo series artwork conveys mystery and depth, capturing the essence of the night sky and ocean depths. The piece combines rich textures with abstract forms to create a contemplative visual experience. This is additional content item 3 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window5-content4.html": {
+      "title": "Window 5 - Content 5 - Item 4",
+      "image": "",
+      "backgroundColor": "#3F51B5",
+      "category": "window5",
+      "name": "Indigo Series - Artwork 5 - Item 4",
+      "date": "2023-11-20",
+      "description": "This deep indigo series artwork conveys mystery and depth, capturing the essence of the night sky and ocean depths. The piece combines rich textures with abstract forms to create a contemplative visual experience. This is additional content item 4 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window6-content2.html": {
+      "title": "Window 6 - Content 6 - Item 2",
+      "image": "",
+      "backgroundColor": "#009688",
+      "category": "window6",
+      "name": "Teal Series - Artwork 6 - Item 2",
+      "date": "2023-12-10",
+      "description": "This refreshing teal series artwork inspires balance and harmony, capturing the essence of nature and tranquility. The piece combines organic patterns with smooth transitions to create a rejuvenating visual experience. This is additional content item 2 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window6-content3.html": {
+      "title": "Window 6 - Content 6 - Item 3",
+      "image": "",
+      "backgroundColor": "#009688",
+      "category": "window6",
+      "name": "Teal Series - Artwork 6 - Item 3",
+      "date": "2023-12-15",
+      "description": "This refreshing teal series artwork inspires balance and harmony, capturing the essence of nature and tranquility. The piece combines organic patterns with smooth transitions to create a rejuvenating visual experience. This is additional content item 3 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    },
+    "window6-content4.html": {
+      "title": "Window 6 - Content 6 - Item 4",
+      "image": "",
+      "backgroundColor": "#009688",
+      "category": "window6",
+      "name": "Teal Series - Artwork 6 - Item 4",
+      "date": "2023-12-20",
+      "description": "This refreshing teal series artwork inspires balance and harmony, capturing the essence of nature and tranquility. The piece combines organic patterns with smooth transitions to create a rejuvenating visual experience. This is additional content item 4 with extended details.",
+      "galleryImages": [
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797",
+        "https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797"
+      ]
+    }
+  }
+}

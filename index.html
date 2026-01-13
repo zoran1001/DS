@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase Website</title>
+    <!-- 引入Google Fonts - Audiowide、Coral Pixels、Funnel Display和Noto Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Coral+Pixels&family=Funnel+Display:wght@300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- 预加载主要字体 -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" as="style">
+    <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入外部CSS文件 -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- 首页图模块 -->
+    <div class="hero-banner">
+        <!-- Canvas for particle effect -->
+        <canvas id="particlesCanvas"></canvas>
+        
+        <!-- 媒体容器 - 支持图片、视频、动图 -->
+        <div class="hero-media">
+            <!-- 这里可以放置图片、视频或动图 -->
+            <!-- 示例：<img src="your-image.jpg" alt="Hero Image"> -->
+            <!-- 示例：<video autoplay loop muted playsinline src="your-video.mp4"></video> -->
+            <!-- 示例：<img src="your-gif.gif" alt="Hero GIF"> -->
+        </div>
+        
+        <!-- 隐藏的Canvas用于颜色分析 -->
+        <canvas id="colorAnalysisCanvas" style="display: none;"></canvas>
+        
+        <div class="hero-content">
+            <h1 id="dynamicTitle">Design Without Boundaries</h1>
+            <p>Boundless Creativity</p>
+        </div>
+        <a href="#gallery" class="scroll-btn">View Works</a>
+    </div>
+    
+    <div class="container">
+        
+        <!-- 滚动提示 -->
+        <div class="scroll-hint">
+            <span>SWIPE TO EXPLORE</span>
+            <div class="scroll-arrows">
+                <span class="arrow"></span>
+                <span class="arrow"></span>
+                <span class="arrow"></span>
+            </div>
+        </div>
+        <!-- 作品分类容器 -->
+        <div class="gallery-container">
+            <!-- 作品分类模块 -->
+            <div class="gallery" id="gallery">
+            <div class="gallery-item window1" onclick="openWindow('window1.html')">
+                <div class="item-number">01</div>
+                <div class="caption">Window 1 - Content 1</div>
+            </div>
+            
+            <div class="gallery-item window2" onclick="openWindow('window2.html')">
+                <div class="item-number">02</div>
+                <div class="caption">Window 2 - Content 2</div>
+            </div>
+            
+            <div class="gallery-item window3" onclick="openWindow('window3.html')">
+                <div class="item-number">03</div>
+                <div class="caption">Window 3 - Content 3</div>
+            </div>
+            
+            <div class="gallery-item window4" onclick="openWindow('window4.html')">
+                <div class="item-number">04</div>
+                <div class="caption">Window 4 - Content 4</div>
+            </div>
+            
+            <div class="gallery-item window5" onclick="openWindow('window5.html')">
+                <div class="item-number">05</div>
+                <div class="caption">Window 5 - Content 5</div>
+            </div>
+            
+            <div class="gallery-item window6" onclick="openWindow('window6.html')">
+                <div class="item-number">06</div>
+                <div class="caption">Window 6 - Content 6</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- 关于我模块 -->
+    <section class="about-me">
+        <div class="container">
+            <h2 class="fade-in">About Me</h2>
+            
+            <!-- 个人介绍 -->
+            <div class="personal-intro fade-in">
+                <div class="about-photo">
+                    <div class="photo-placeholder">
+                        <span>个人照片</span>
+                    </div>
+                </div>
+                <div class="intro-content">
+                    <h3>周占占</h3>
+                    <p class="age">AGE: <span id="age">27</span></p>
+                    <p class="job-title">平面、视觉设计师</p>
+                    <div class="about-line">
+                        <span>2021</span>
+                        <div class="line"></div>
+                        <span>PRESENT</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 学习路径 -->
+            <div class="learning-path fade-in">
+                <h3 class="section-title">
+                    <span class="section-title-left">LEARNING</span>
+                    <span class="section-title-right">学习路径</span>
+                </h3>
+                <div class="path-item">
+                    <div class="path-info">
+                        <h4>武汉华夏理工学院</h4>
+                        <p>WUHAN HUA XIA INSTITUTE OF TECHNOLOGY</p>
+                    </div>
+                    <div class="path-details">
+                        <p>本科 <span class="degree-type">UNDERGRADUATE COURSE</span></p>
+                        <p>视觉传达 <span class="degree-type">VISUAL COMMUNICATION</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 工作锚点 -->
+            <div class="work-anchor fade-in">
+                <h3 class="section-title">
+                    <span class="section-title-left">WORK ANCHOR</span>
+                    <span class="section-title-right">工作锚点</span>
+                </h3>
+                <div class="work-item">
+                    <div class="work-info">
+                        <h4>东莞糖溪科技有限公司</h4>
+                        <p>2025.04-至今</p>
+                    </div>
+                    <div class="work-details">
+                        <p>设计师</p>
+                        <p>负责海外独立站图片资产支持，定制化机箱设计，IP联名设计等</p>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-info">
+                        <h4>杭州卡沃王有限公司</h4>
+                        <p>2023.06-09</p>
+                    </div>
+                    <div class="work-details">
+                        <p>设计师 · 产品设计</p>
+                        <p>负责甲方和自己公司线上线下需求，包括但不限于球星卡，收藏卡的牌面设计，包装设计以及线下落地等</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 技能曲线 -->
+            <div class="skill-curve fade-in">
+                <h3 class="section-title">
+                    <span class="section-title-left">SKILL CURVE</span>
+                    <span class="section-title-right">技能曲线</span>
+                </h3>
+                
+                <!-- 平面技能 -->
+                <div class="skill-category">
+                    <h4>平面</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-photo-film"></i> ADOBE PHOTOSHOP
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                        <div class="skill-percentage">60%</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-pen-nib"></i> ADOBE ILLUSTRATOR
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                </div>
+                
+                <!-- 三维技能 -->
+                <div class="skill-category">
+                    <h4>三维</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-cube"></i> BLENDER
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 40%"></div>
+                        </div>
+                        <div class="skill-percentage">40%</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-layer-group"></i> CINEMA 4D
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                        <div class="skill-percentage">60%</div>
+                    </div>
+                </div>
+                
+                <!-- 办公三件套 -->
+                <div class="skill-category">
+                    <h4>办公三件套</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-file-word"></i> WORD
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-file-excel"></i> EXCEL
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 50%"></div>
+                        </div>
+                        <div class="skill-percentage">50%</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <i class="fas fa-file-powerpoint"></i> POWER POINT
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 联系我模块 -->
+    <section class="contact-me">
+        <div class="container">
+            <h2 class="fade-in">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Email</h4>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Phone</h4>
+                            <p>+123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Location</h4>
+                            <p>City, Country</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 具体作品模块 -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="close-btn" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <div id="modalColorBackground" class="modal-color-background"></div>
+                    <img id="modalImage" src="https://cdn.shopify.com/s/files/1/0522/3320/7988/files/04c1b54e734068ed38cbb1e9b5dc0310_1496e468-ee13-4afd-9d0a-421e486c898b.png?v=1768193797" alt="">
+                    <button class="modal-prev-btn" id="modalPrevBtn">‹</button>
+                    <button class="modal-next-btn" id="modalNextBtn">›</button>
+                </div>
+                <div class="modal-text" id="modalText">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入外部JS文件 -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "ds",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files \"*.html\"",
+    "format": "prettier --write \"*.html\"",
+    "build": "html-minifier --input-dir . --output-dir dist --collapse-whitespace --minify-css true --minify-js true --remove-comments"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "cssnano": "^7.1.2",
+    "html-minifier": "^4.0.0",
+    "prettier": "^3.7.4"
+  }
+}
